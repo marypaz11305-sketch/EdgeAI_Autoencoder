@@ -1,0 +1,13 @@
+{
+  "case": "NO_SEND",
+  "window_index": 89715,
+  "incident_id": "0",
+  "sensor_id": "Sleeper",
+  "start_timestamp": "2024-10-04 08:00:00",
+  "end_timestamp": "2024-10-04 09:00:00",
+  "label_from_database": 0,
+  "status_values": "OK|OK|OK|OK",
+  "mse_normalized_space": 1.0984443179040682e-05,
+  "threshold": 0.08204725444316865,
+  "decision": "NO_SEND"
+}

@@ -1,0 +1,13 @@
+{
+  "case": "SEND",
+  "window_index": 520,
+  "incident_id": "0",
+  "sensor_id": "Rail",
+  "start_timestamp": "2023-11-21 11:00:00",
+  "end_timestamp": "2023-11-21 12:00:00",
+  "label_from_database": 0,
+  "status_values": "OK|OK|OK|OK",
+  "mse_normalized_space": 8.637537956237793,
+  "threshold": 0.08204725444316865,
+  "decision": "SEND"
+}
