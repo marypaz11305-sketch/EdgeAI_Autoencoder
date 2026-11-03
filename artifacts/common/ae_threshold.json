@@ -1,5 +1,5 @@
 {
-  "threshold_mse_normalized_space": 0.5899171233177185,
+  "threshold_mse_normalized_space": 0.08204725444316865,
   "decision_rule": "SEND if reconstruction_mse > threshold",
   "threshold_info": {
     "mode": "normal-percentile",

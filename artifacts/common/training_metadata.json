@@ -10,9 +10,9 @@
   "n_train_normal_windows": 92295,
   "n_validation_windows": 30765,
   "n_validation_anomalous_windows": 0,
-  "threshold": NaN,
+  "threshold": 0.08204725444316865,
   "metrics_validation": {
-    "accuracy": 1.0,
+    "accuracy": 0.9899886234357224,
     "precision_send": 0.0,
     "recall_send": 0.0,
     "f1_send": 0.0
