@@ -1,0 +1,43 @@
+#ifndef AE_POSTPROCESS_PARAMS_H
+#define AE_POSTPROCESS_PARAMS_H
+
+#include <stdint.h>
+
+#define AE_INPUT_SIZE 14u
+#define AE_RECONSTRUCTION_THRESHOLD_F32 (nanf)
+
+static const float ae_input_mean[AE_INPUT_SIZE] = {
+     0.425786734f,
+    0.198387831f,
+    87.7011719f,
+    0.00110681681f,
+    0.00145735091f,
+    0.00142515043f,
+    0.000285296584f,
+    -1.99846636e-05f,
+    0.000641265651f,
+    0.00284499675f,
+    0.00382640515f,
+    0.0038190214f,
+    0.0033022468f,
+    12.0561743f
+};
+
+static const float ae_input_std[AE_INPUT_SIZE] = {
+    0.0160260536f,
+    0.0140828565f,
+    0.025050126f,
+    0.00503025157f,
+    0.00325374259f,
+    0.000741357973f,
+    0.00877475087f,
+    0.00689738523f,
+    0.00426011672f,
+    0.0116721392f,
+    0.00840381905f,
+    0.0019939763f,
+    0.00948685128f,
+    8.55060863f
+};
+
+#endif /* AE_POSTPROCESS_PARAMS_H */

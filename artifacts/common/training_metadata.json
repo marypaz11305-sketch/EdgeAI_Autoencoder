@@ -1,0 +1,44 @@
+{
+  "model": "autoencoder_14_8_4_8_14",
+  "train_script": "train_autoencoder_keras.py",
+  "keras_version": "3.15.1",
+  "keras_backend": "tensorflow",
+  "csv": "../data/tiltmonitor_incidence_series_24h.csv",
+  "window_size": 4,
+  "stride": 1,
+  "n_windows": 123060,
+  "n_train_normal_windows": 92295,
+  "n_validation_windows": 30765,
+  "n_validation_anomalous_windows": 0,
+  "threshold": NaN,
+  "metrics_validation": {
+    "accuracy": 1.0,
+    "precision_send": 0.0,
+    "recall_send": 0.0,
+    "f1_send": 0.0
+  },
+  "saved_artifacts": {
+    "keras": "..\\artifacts\\stm32cube_ai\\autoencoder.keras",
+    "h5": true,
+    "tflite_results": {
+      "tflite_float32": true,
+      "tflite_int8": true
+    }
+  },
+  "feature_names": [
+    "mean_theta_x",
+    "mean_theta_y",
+    "mean_theta_z",
+    "sigma_theta_x",
+    "sigma_theta_y",
+    "sigma_theta_z",
+    "delta_theta_x",
+    "delta_theta_y",
+    "delta_theta_z",
+    "range_theta_x",
+    "range_theta_y",
+    "range_theta_z",
+    "rms_acc_activity",
+    "mean_temperature"
+  ]
+}
